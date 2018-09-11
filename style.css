@@ -1,0 +1,73 @@
+.phpipam {
+    background-color: aliceblue;
+    color: black;
+}
+
+.phpipam h6 {
+    margin: 2em 0;
+    padding: 0 1em;
+    font-variant: small-caps;
+    font-size: 110%;
+}
+
+/***** listRacks ***********************/
+
+.phpipam table.phpipam_devices a div {
+    color: #04a;
+    text-decoration: underline;
+}
+
+.phpipam table.phpipam_devices {
+    font: normal 1em arial;
+    /* display: inline; 
+     * IE needs this, so we use a sick JS hack to make it happen */
+    display: inline-table;
+    border-collapse: collapse;
+}
+
+.phpipam table.phpipam_devices caption,
+.phpipam table.phpipam_devices th {
+    font: bold 1em arial;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid black; /* 
+     * visible when printing in black-on-white mode, 
+     * also makes cell spacing uniform 
+     */
+}
+
+.phpipam table.phpipam_devices th.rack_name,
+.phpipam table.phpipam_devices caption {
+    border-right: 5px solid black;
+}
+
+.phpipam table.phpipam_devices td {
+    font: normal 1em arial;
+    border-right: 5px solid black;
+}
+
+.phpipam table.phpipam_devices .last{
+    border-bottom: 5px solid black;
+}
+
+.phpipam table.phpipam_devices th,
+.phpipam table.phpipam_devices td {
+    white-space: nowrap; /* 
+     * stop IE from wrapping hyphenated things all willy-nilly 
+     */
+    padding: 0 5px 0 5px;
+}
+
+.phpipam table.phpipam_devices td.item {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* * modelines
+ * ex: se ai et ts=4 st=4 bf :
+ * vi: se ai et ts=4 st=4 bf :
+ * vim: set ai et ts=4 st=4 bf sts=4 cin ff=unix fenc=utf-8 foldmethod=indent : enc=utf-8
+ * atom:set useSoftTabs tabLength=4 lineending=lf encoding=utf-8
+ * -*- Mode: tab-width: 4; c-basic-offset: 4; indent-tabs-mode: nil -*-
+ */
