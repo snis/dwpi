@@ -1,6 +1,6 @@
 base   phpipam
 author GilCot
-date   2018-09-11
+date   2020-08-27
 name   {php}IPAM connector plugin
 desc   Fetch subnet hosts from a {php}IPAM instance
 url    http://www.dokuwiki.com/plugin:phpipam
