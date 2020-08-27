@@ -884,10 +884,9 @@ class syntax_plugin_phpipam extends Dokuwiki_Syntax_Plugin {
      * Display IP addresses list
      *
      * @param  $list mixed   IPAM result data value
-     * @param  $tags string  for part to display
      * @retval $html string  HTML part for the wiki
      */
-    private function listAddrs($list, $tags) {
+    private function listAddrs($list) {
         if (empty($list)) {
             if ($this->getConf('allowdebug')) {
                 return "<p class='level4 warning'>" . "No Address" . '</p>' ;
