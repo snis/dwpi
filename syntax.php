@@ -35,7 +35,7 @@ class syntax_plugin_phpipam extends Dokuwiki_Syntax_Plugin {
         return array(
             'author' => 'Gildas Cotomale',
             'email'  => 'Gildas.Cotomale@ymagis.com',
-            'date'   => '2018-07-24',
+            'date'   => '2020-08-27',
             'name'   => '{php}IPAM connector plugin',
             'desc'   => 'Displays a network used-or-reserved IPs',
             'url'    => 'http://www.dokuwiki.org/plugin:phpipam',
